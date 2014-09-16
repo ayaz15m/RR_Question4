@@ -1,0 +1,5 @@
+<h1>List of Students</h1>
+
+<% @sorted_data.each do |person| %>
+  <%= "First Name: #{person["first_name"]} Last Name: #{person["last_name"]} Grade: #{person["grade"]}" %><br>
+<% end %>
